@@ -6,4 +6,4 @@ ddg = DuckDuckGoSearchRun()
 @tool
 def search(query: str) -> str:
     """Search the web for current information."""
-    return ddg.invoke(query)
+    return ddg.run(query)
